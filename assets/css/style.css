@@ -1020,7 +1020,6 @@ body.light-theme{
     }
 
     .about__container{
-        grid-template-columns: repeat(2, 1fr);
         align-items: center;
         column-gap: 4rem;
     }
@@ -1029,6 +1028,9 @@ body.light-theme{
     }
     .about__data{
         text-align: initial;
+    }
+    .button-container{
+        text-align: center;
     }
     .about__info{
         justify-content: initial;
